@@ -1,0 +1,15 @@
+from plyer import notification
+import time
+
+if __name__ == '__main__':
+
+    while True:
+        notification.notify(title='Drink Water',
+                            message='Drinking water in every half hour will help you in nourishing skin.',
+                            app_name='notify1',
+                            app_icon='ico1.ico',
+                            timeout=10,
+                            ticker='by Jatin Rathi',
+                            toast=False)
+        time.sleep(25)
+
